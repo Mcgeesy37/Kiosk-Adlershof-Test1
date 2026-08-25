@@ -1,0 +1,438 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>KIOSK Adlershof: Western Union, Ria, Lotto, Pakete, Vapes &amp; mehr</title>
+<meta name="description" content="Premium Kiosk in Adlershof, Rudower Chaussee 5B. Western Union, Ria, Lotto, DPD/GLS/UPS, Zeitungen, Drucken &amp; Kopieren, Vapes, SIM-Karten und Geschenkkarten. Mo-Sa 08-00 Uhr geöffnet." />
+<meta name="theme-color" content="#0b0e14" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%23e8a33d'/%3E%3Ctext x='50' y='68' font-size='58' font-family='Arial, sans-serif' font-weight='800' text-anchor='middle' fill='%2314110a'%3EK%3C/text%3E%3C/svg%3E" />
+
+<meta property="og:title" content="KIOSK Adlershof: Premium Nachbarschaftskiosk" />
+<meta property="og:description" content="Western Union, Ria, Lotto, Pakete, Presse, Print &amp; Copy, Vapes, SIM-Karten, Geschenkkarten. Rudower Chaussee 5B, Berlin-Adlershof." />
+<meta property="og:type" content="website" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap" rel="stylesheet" />
+<script src="https://unpkg.com/@phosphor-icons/web@2.1.5" defer></script>
+
+<link rel="stylesheet" href="styles.css" />
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ConvenienceStore",
+  "name": "KIOSK Adlershof",
+  "image": "https://www.kiosk-adlershof.de/assets/hero.jpg",
+  "telephone": "+4930678192965",
+  "priceRange": "€",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Rudower Chaussee 5B",
+    "postalCode": "12489",
+    "addressLocality": "Berlin",
+    "addressCountry": "DE"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+      "opens": "08:00",
+      "closes": "23:59"
+    }
+  ],
+  "url": "https://www.kiosk-adlershof.de"
+}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Zum Inhalt springen</a>
+
+<header class="nav">
+  <div class="container nav__inner">
+    <a href="#main" class="nav__brand">
+      <span class="nav__brand-mark">K</span>
+      KIOSK Adlershof
+    </a>
+
+    <nav class="nav__links" aria-label="Hauptnavigation">
+      <a href="#services">Services</a>
+      <a href="#vapes">Vapes</a>
+      <a href="#galerie">Galerie</a>
+      <a href="#oeffnungszeiten">Öffnungszeiten</a>
+    </nav>
+
+    <div class="nav__actions">
+      <button class="icon-btn" id="themeToggle" type="button" aria-label="Darstellung umschalten">
+        <i class="ph-bold ph-moon" data-theme-icon="dark"></i>
+        <i class="ph-bold ph-sun" data-theme-icon="light" style="display:none"></i>
+      </button>
+      <a class="btn btn--secondary btn--sm" href="https://www.google.com/maps/dir/?api=1&destination=Rudower+Chaussee+5B+12489+Berlin" target="_blank" rel="noopener">
+        <i class="ph-bold ph-navigation-arrow"></i> Route
+      </a>
+      <button class="icon-btn nav__toggle" id="menuToggle" type="button" aria-label="Menü öffnen" aria-expanded="false">
+        <i class="ph-bold ph-list"></i>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-menu" id="mobileMenu">
+  <nav class="mobile-menu__links" aria-label="Mobile Navigation">
+    <a href="#services" data-close-menu>Services</a>
+    <a href="#vapes" data-close-menu>Vapes</a>
+    <a href="#galerie" data-close-menu>Galerie</a>
+    <a href="#oeffnungszeiten" data-close-menu>Öffnungszeiten</a>
+  </nav>
+  <div class="mobile-menu__actions">
+    <a class="btn btn--primary btn--block" href="https://www.google.com/maps/dir/?api=1&destination=Rudower+Chaussee+5B+12489+Berlin" target="_blank" rel="noopener">
+      <i class="ph-bold ph-navigation-arrow"></i> Route öffnen
+    </a>
+    <a class="btn btn--secondary btn--block" href="tel:+4930678192965">
+      <i class="ph-bold ph-phone"></i> Anrufen
+    </a>
+  </div>
+</div>
+
+<main id="main">
+
+  <!-- ============================= HERO ============================= -->
+  <div class="container">
+    <section class="hero">
+      <div>
+        <span class="hero__badge" id="statusBadge">
+          <span class="hero__status-dot" id="statusDot"></span>
+          <span id="statusText">Status wird geprüft…</span>
+        </span>
+
+        <h1>Premium Kiosk in Adlershof, schnell, modern, <em>zuverlässig</em>.</h1>
+
+        <p class="hero__sub">Euer Nachbarschaftskiosk für Geldtransfer, Pakete, Presse, Drucken &amp; mehr, direkt an der Rudower Chaussee.</p>
+
+        <div class="hero__ctas">
+          <a class="btn btn--primary" href="https://www.google.com/maps/dir/?api=1&destination=Rudower+Chaussee+5B+12489+Berlin" target="_blank" rel="noopener">
+            <i class="ph-bold ph-navigation-arrow"></i> Route öffnen
+          </a>
+          <a class="btn btn--secondary" href="#services">
+            <i class="ph-bold ph-squares-four"></i> Services ansehen
+          </a>
+        </div>
+      </div>
+
+      <div class="hero__visual" data-reveal>
+        <img src="https://picsum.photos/seed/kiosk-adlershof-hero/900/1125" alt="Innenansicht KIOSK Adlershof mit Snacks, Presse und Vapes" width="900" height="1125" loading="eager" />
+        <div class="hero__visual-caption">
+          <i class="ph-bold ph-storefront"></i>
+          Snacks, Presse, Vapes
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div id="scrollSentinel" aria-hidden="true" style="height:1px;"></div>
+
+  <!-- ==================== WEITERE SERVICES STRIP ==================== -->
+  <div class="strip" aria-label="Weitere Services">
+    <div class="strip__track">
+      <span class="strip__pill"><i class="ph-bold ph-sim-card"></i> SIM-Karten Ortel</span>
+      <span class="strip__pill"><i class="ph-bold ph-sim-card"></i> Ay Yildiz</span>
+      <span class="strip__pill"><i class="ph-bold ph-sim-card"></i> Lycamobile</span>
+      <span class="strip__pill"><i class="ph-bold ph-gift"></i> Amazon Guthaben</span>
+      <span class="strip__pill"><i class="ph-bold ph-gift"></i> Netflix Karten</span>
+      <span class="strip__pill"><i class="ph-bold ph-gift"></i> Paysafecard</span>
+      <span class="strip__pill"><i class="ph-bold ph-dots-three"></i> u.v.m.</span>
+      <!-- duplicate for seamless loop -->
+      <span class="strip__pill" aria-hidden="true"><i class="ph-bold ph-sim-card"></i> SIM-Karten Ortel</span>
+      <span class="strip__pill" aria-hidden="true"><i class="ph-bold ph-sim-card"></i> Ay Yildiz</span>
+      <span class="strip__pill" aria-hidden="true"><i class="ph-bold ph-sim-card"></i> Lycamobile</span>
+      <span class="strip__pill" aria-hidden="true"><i class="ph-bold ph-gift"></i> Amazon Guthaben</span>
+      <span class="strip__pill" aria-hidden="true"><i class="ph-bold ph-gift"></i> Netflix Karten</span>
+      <span class="strip__pill" aria-hidden="true"><i class="ph-bold ph-gift"></i> Paysafecard</span>
+      <span class="strip__pill" aria-hidden="true"><i class="ph-bold ph-dots-three"></i> u.v.m.</span>
+    </div>
+  </div>
+
+  <!-- ============================ SERVICES ============================ -->
+  <div class="container">
+    <section id="services">
+      <div class="section-head" data-reveal>
+        <h2 class="section-title">Alles, was der Alltag braucht</h2>
+        <p class="section-body">Sechs Services, ein Laden. Kein Umweg, keine Wartezeit.</p>
+      </div>
+
+      <div class="bento">
+        <article class="bento__card bento__card--a bento__card--wu">
+          <div class="bento__icon"><i class="ph-bold ph-globe-hemisphere-west"></i></div>
+          <h3>Western Union</h3>
+          <p>Geld senden/empfangen direkt vor Ort.</p>
+        </article>
+
+        <article class="bento__card bento__card--b bento__card--tint">
+          <div class="bento__icon"><i class="ph-bold ph-arrows-left-right"></i></div>
+          <h3>Ria</h3>
+          <p>Alternative Money-Transfer Option, praktisch &amp; schnell.</p>
+        </article>
+
+        <article class="bento__card bento__card--c">
+          <div class="bento__icon"><i class="ph-bold ph-ticket"></i></div>
+          <h3>Lotto</h3>
+          <p>Offizielle Annahmestelle: tippen, abgeben, fertig.</p>
+        </article>
+
+        <article class="bento__card bento__card--d">
+          <div class="bento__icon"><i class="ph-bold ph-package"></i></div>
+          <h3>DPD, GLS, UPS</h3>
+          <p>Paket abgeben/abholen, ideal für Alltag &amp; Büro.</p>
+        </article>
+
+        <article class="bento__card bento__card--e">
+          <div class="bento__icon"><i class="ph-bold ph-newspaper"></i></div>
+          <h3>Zeitungen</h3>
+          <p>Tageszeitungen &amp; Magazine, schnell mitnehmen.</p>
+        </article>
+
+        <article class="bento__card bento__card--e">
+          <div class="bento__icon"><i class="ph-bold ph-printer"></i></div>
+          <h3>Drucken &amp; Kopieren</h3>
+          <p>Praktisch, wenn's sofort sein muss.</p>
+        </article>
+      </div>
+    </section>
+  </div>
+
+  <!-- ============================ VAPE ZONE ============================ -->
+  <div class="container">
+    <section id="vapes">
+      <div class="vape" data-reveal>
+        <div>
+          <h2 class="section-title">Große Auswahl</h2>
+          <div class="vape__price">8€-12€</div>
+          <p class="section-body">Viele Sorten, schnelle Verfügbarkeit, direkt am Kiosk.</p>
+          <div class="vape__note">
+            <i class="ph-bold ph-eye-slash"></i>
+            <span>Diskrete Beratung, unkomplizierte Auswahl direkt am Tresen.</span>
+          </div>
+        </div>
+        <div class="vape__visual">
+          <img src="https://picsum.photos/seed/kiosk-adlershof-vape/800/600" alt="Vape-Regal mit großer Auswahl im KIOSK Adlershof" loading="lazy" />
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- ============================= GALLERY ============================= -->
+  <div class="container">
+    <section id="galerie">
+      <div class="section-head" data-reveal>
+        <h2 class="section-title">Ein Blick rein</h2>
+        <p class="section-body">Eingang, Laden und Vape-Auswahl. So sieht's bei uns aus.</p>
+      </div>
+
+      <div class="gallery">
+        <button class="gallery__item gallery__item--1" data-lightbox="https://picsum.photos/seed/kiosk-adlershof-entrance/1200/1200" aria-label="Bild vergrößern: Eingang KIOSK Adlershof">
+          <img src="https://picsum.photos/seed/kiosk-adlershof-entrance/700/700" alt="Eingang KIOSK Adlershof" loading="lazy" />
+          <span class="gallery__caption">Eingang</span>
+        </button>
+        <button class="gallery__item gallery__item--2" data-lightbox="https://picsum.photos/seed/kiosk-adlershof-inside1/1200/900" aria-label="Bild vergrößern: Innenansicht 1">
+          <img src="https://picsum.photos/seed/kiosk-adlershof-inside1/700/500" alt="Innenansicht KIOSK Adlershof" loading="lazy" />
+          <span class="gallery__caption">Innen</span>
+        </button>
+        <button class="gallery__item gallery__item--3" data-lightbox="https://picsum.photos/seed/kiosk-adlershof-inside2/700/700" aria-label="Bild vergrößern: Innenansicht 2">
+          <img src="https://picsum.photos/seed/kiosk-adlershof-inside2/500/500" alt="Zweite Innenansicht KIOSK Adlershof" loading="lazy" />
+          <span class="gallery__caption">Sortiment</span>
+        </button>
+        <button class="gallery__item gallery__item--4" data-lightbox="https://picsum.photos/seed/kiosk-adlershof-vape2/700/700" aria-label="Bild vergrößern: Vape Auswahl">
+          <img src="https://picsum.photos/seed/kiosk-adlershof-vape2/500/500" alt="Vape-Produktauswahl" loading="lazy" />
+          <span class="gallery__caption">Vapes</span>
+        </button>
+      </div>
+    </section>
+  </div>
+
+  <!-- =========================== TESTIMONIALS =========================== -->
+  <div class="container">
+    <section>
+      <div class="section-head" data-reveal>
+        <h2 class="section-title">Was Kunden sagen</h2>
+      </div>
+
+      <div class="reviews">
+        <article class="review review--feature" data-reveal>
+          <span class="review__stars" aria-hidden="true">
+            <i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i>
+          </span>
+          <p>„Paket abgeben, kurz was holen: alles an einem Ort.”</p>
+          <span class="review__meta">Schnell erledigt</span>
+        </article>
+
+        <article class="review" data-reveal>
+          <span class="review__stars" aria-hidden="true">
+            <i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i>
+          </span>
+          <p>„Vapes &amp; Drinks: immer was Passendes da.”</p>
+          <span class="review__meta">Gute Auswahl</span>
+        </article>
+
+        <article class="review" data-reveal>
+          <span class="review__stars" aria-hidden="true">
+            <i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i>
+          </span>
+          <p>„Western Union/Ria läuft unkompliziert und sauber.”</p>
+          <span class="review__meta">Zuverlässig</span>
+        </article>
+      </div>
+    </section>
+  </div>
+
+  <!-- ============================ HOURS / CONTACT ============================ -->
+  <div class="container">
+    <section id="oeffnungszeiten">
+      <div class="section-head" data-reveal>
+        <span class="eyebrow"><i class="ph-bold ph-clock"></i> Öffnungszeiten</span>
+        <h2 class="section-title">Wann wir für euch da sind</h2>
+      </div>
+
+      <div class="hours">
+        <div data-reveal>
+          <div class="hours__table" id="hoursTable">
+            <div class="hours__row" data-day="1"><span>Montag</span><span>08:00-00:00</span></div>
+            <div class="hours__row" data-day="2"><span>Dienstag</span><span>08:00-00:00</span></div>
+            <div class="hours__row" data-day="3"><span>Mittwoch</span><span>08:00-00:00</span></div>
+            <div class="hours__row" data-day="4"><span>Donnerstag</span><span>08:00-00:00</span></div>
+            <div class="hours__row" data-day="5"><span>Freitag</span><span>08:00-00:00</span></div>
+            <div class="hours__row" data-day="6"><span>Samstag</span><span>08:00-00:00</span></div>
+            <div class="hours__row" data-day="0"><span>Sonntag</span><span>Geschlossen</span></div>
+          </div>
+        </div>
+
+        <div class="contact-card" data-reveal>
+          <div class="contact-card__row">
+            <i class="ph-bold ph-map-pin"></i>
+            <div>
+              <span class="contact-card__label">Adresse</span>
+              <span class="contact-card__value">Rudower Chaussee 5B, 12489 Berlin</span>
+            </div>
+          </div>
+          <div class="contact-card__row">
+            <i class="ph-bold ph-phone"></i>
+            <div>
+              <span class="contact-card__label">Telefon</span>
+              <a class="contact-card__value" href="tel:+4930678192965">030 67819265</a>
+            </div>
+          </div>
+          <div class="contact-card__row">
+            <i class="ph-bold ph-whatsapp-logo"></i>
+            <div>
+              <span class="contact-card__label">WhatsApp</span>
+              <a class="contact-card__value" href="https://wa.me/4930678192965" target="_blank" rel="noopener">Nachricht schreiben</a>
+            </div>
+          </div>
+
+          <div class="contact-card__map" id="mapContainer">
+            <button class="map-cta" id="loadMapBtn" type="button">
+              <i class="ph-bold ph-map-trifold"></i>
+              Karte laden (Google Maps)
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- ============================== FAQ ============================== -->
+  <div class="container">
+    <section>
+      <div class="section-head" data-reveal>
+        <h2 class="section-title">Häufige Fragen</h2>
+      </div>
+
+      <div class="faq" data-reveal>
+        <details class="faq__item">
+          <summary>Welche Services habt ihr?<i class="ph-bold ph-plus"></i></summary>
+          <p>Western Union, Ria, Lotto, DPD/GLS/UPS, Zeitungen, Drucken &amp; Kopieren, SIM-Karten (Ortel, Ay Yildiz, Lycamobile), Guthaben &amp; Geschenkkarten (Amazon, Netflix u.v.m.).</p>
+        </details>
+        <details class="faq__item">
+          <summary>Wie viel kosten Vapes?<i class="ph-bold ph-plus"></i></summary>
+          <p>Im Durchschnitt liegen die Preise zwischen 8€ und 12€.</p>
+        </details>
+        <details class="faq__item">
+          <summary>Wo genau seid ihr?<i class="ph-bold ph-plus"></i></summary>
+          <p>Rudower Chaussee 5B, 12489 Berlin (Adlershof).</p>
+        </details>
+      </div>
+    </section>
+  </div>
+
+  <!-- ============================= CTA BAND ============================= -->
+  <div class="container">
+    <section>
+      <div class="cta-band" data-reveal>
+        <h2 class="section-title">Vorbeikommen lohnt sich</h2>
+        <p class="section-body">Rudower Chaussee 5B · Mo-Sa 08-00 Uhr geöffnet.</p>
+        <div class="cta-band__actions">
+          <a class="btn btn--primary" href="https://www.google.com/maps/dir/?api=1&destination=Rudower+Chaussee+5B+12489+Berlin" target="_blank" rel="noopener">
+            <i class="ph-bold ph-navigation-arrow"></i> Route öffnen
+          </a>
+          <a class="btn btn--secondary" href="tel:+4930678192965">
+            <i class="ph-bold ph-phone"></i> Anrufen
+          </a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+</main>
+
+<footer>
+  <div class="container">
+    <div class="footer__top">
+      <div class="footer__brand">
+        <a href="#main" class="nav__brand">
+          <span class="nav__brand-mark">K</span>
+          KIOSK Adlershof
+        </a>
+        <p>Euer Nachbarschaftskiosk an der Rudower Chaussee 5B, 12489 Berlin-Adlershof.</p>
+      </div>
+
+      <div class="footer__links">
+        <div class="footer__col">
+          <h4>Kiosk</h4>
+          <a href="#services">Services</a>
+          <a href="#vapes">Vapes</a>
+          <a href="#galerie">Galerie</a>
+          <a href="#oeffnungszeiten">Öffnungszeiten</a>
+        </div>
+        <div class="footer__col">
+          <h4>Kontakt</h4>
+          <a href="tel:+4930678192965">030 67819265</a>
+          <a href="https://wa.me/4930678192965" target="_blank" rel="noopener">WhatsApp</a>
+          <a href="https://www.google.com/maps/dir/?api=1&destination=Rudower+Chaussee+5B+12489+Berlin" target="_blank" rel="noopener">Route öffnen</a>
+        </div>
+        <div class="footer__col">
+          <h4>Rechtliches</h4>
+          <a href="impressum.html">Impressum</a>
+          <a href="datenschutz.html">Datenschutz</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <span>© <span id="year"></span> KIOSK Adlershof</span>
+      <button type="button" id="toTopLink" class="footer__bottom-links" style="background:none;border:none;">Nach oben ↑</button>
+    </div>
+  </div>
+</footer>
+
+<button class="to-top" id="toTop" type="button" aria-label="Nach oben scrollen">
+  <i class="ph-bold ph-arrow-up"></i>
+</button>
+
+<div class="lightbox" id="lightbox">
+  <button class="lightbox__close" id="lightboxClose" aria-label="Schließen"><i class="ph-bold ph-x"></i></button>
+  <img src="" alt="" id="lightboxImg" />
+</div>
+
+<script src="script.js" defer></script>
+</body>
+</html>
